@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Fira%20Code&display=swap');
+
 body {
 	height: 65vh;
 }
@@ -20,4 +22,9 @@ body {
 
 .fa-twitter {
 	color: #00acee;
+}
+
+* {
+	background-color: #e5e7eb;
+	font-family: 'Fira Code';
 }
