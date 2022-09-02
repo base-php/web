@@ -1,0 +1,23 @@
+body {
+	height: 65vh;
+}
+
+.text-center {
+	margin-top: 35vh;
+}
+
+.fa-youtube {
+	color: red;
+}
+
+.fab, .fas {
+	margin-right: 10px;
+}
+
+.fa-envelope {
+	color: blue;
+}
+
+.fa-twitter {
+	color: #00acee;
+}
