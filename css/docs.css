@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Fira%20Code&display=swap');
+
+* {
+	background-color: #e5e7eb;
+	font-family: 'Fira Code';
+}
+
+.menu {
+	height: 100vh;
+}
