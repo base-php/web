@@ -3,6 +3,8 @@
 include $_SERVER['DOCUMENT_ROOT'] . '/vendor/autoload.php';
 
 $slug = 'Illuminate\Support\Str::slug';
+
+$markdown = 'Illuminate\Support\Str::markdown';
 	
 $items = [
 	'Empezando' => [

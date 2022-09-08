@@ -32,7 +32,7 @@
 
 								<div class="ml-6" x-show="<?php echo $slug($menu, ''); ?>" x-transition>
 									<?php foreach ($submenus as $submenu): ?>
-										<a href="<?php echo $slug($submenu); ?>" class="block text-gray-500"><?php echo $submenu; ?></a>
+										<a hx-post="markdown.php" hx-vals='<?php echo json_encode(['file' => $slug($menu, '-')]) ?>' hx-target=".content" href="#" class="block text-gray-500"><?php echo $submenu; ?></a>
 									<?php endforeach; ?>
 								</div>
 							</div>
@@ -41,11 +41,14 @@
 				</div>
 			</div>
 
-			<div class="w-9/12 bg-white content"></div>
+			<div class="w-9/12 bg-white content p-5">
+				
+			</div>
 		</div>
 	</div>
 
 	<script src="/node_modules/flowbite/dist/flowbite.js"></script>
+	<script src="/node_modules/htmx.org/dist/htmx.js"></script>
 	<script src="/node_modules/alpinejs/dist/cdn.js"></script>
 </body>
 </html>
