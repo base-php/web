@@ -7,7 +7,6 @@
 
 	<link rel="icon" href="/img/favicon.svg">
 
-	<link rel="stylesheet" href="/node_modules/flowbite/src/flowbite.css">
 	<link rel="stylesheet" href="/node_modules/@fortawesome/fontawesome-free/css/all.css">
 	<link rel="stylesheet" href="/css/style.css">
 
