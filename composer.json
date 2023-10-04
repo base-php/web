@@ -1,6 +1,6 @@
 {
     "require": {
-        "illuminate/support": "10.21.1",
+        "illuminate/support": "10.26.2",
         "league/commonmark": "2.4.1"
     }
 }
